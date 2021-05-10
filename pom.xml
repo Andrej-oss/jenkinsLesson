@@ -37,7 +37,7 @@
             </plugin>
             <plugin>
                 <groupId>com.heroku.sdk</groupId>
-                <artifactId>heroku-deploy-complete</artifactId>
+                <artifactId>heroku-maven-plugin</artifactId>
                 <version>2.0.16</version>
                 <configuration>
                    <appName>jenkinsApp</appName>
