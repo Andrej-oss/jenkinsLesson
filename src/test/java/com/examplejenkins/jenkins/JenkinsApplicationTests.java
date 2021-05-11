@@ -24,7 +24,7 @@ class JenkinsApplicationTests {
         mockMvc.perform(MockMvcRequestBuilders.get("/"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("jenkinsApp"));
+                .andExpect(content().string("jenkins"));
 
     }
 }
